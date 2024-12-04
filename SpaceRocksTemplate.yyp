@@ -36,6 +36,8 @@
   "resources":[
     {"id":{"name":"LINK_TO_TUTORIALS","path":"notes/LINK_TO_TUTORIALS/LINK_TO_TUTORIALS.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"TestScript","path":"scripts/TestScript/TestScript.yy",},},
+    {"id":{"name":"s_Player","path":"sprites/s_Player/s_Player.yy",},},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_rock_big","path":"sprites/spr_rock_big/spr_rock_big.yy",},},
