@@ -3,11 +3,10 @@ leftKeyPressed = keyboard_check(ord("A"))
 downKeyPressed = keyboard_check(ord("S"))
 rightKeyPressed = keyboard_check(ord("D"))
 
+interactKeyPressed = keyboard_check(ord("E"))
+
 xSpeed = (rightKeyPressed - leftKeyPressed) * moveSpeed
 ySpeed = (downKeyPressed - upKeyPressed) * moveSpeed
-
-
-move_and_collide(xSpeed, ySpeed, obj_blocade)
 
 if xSpeed == 0 && ySpeed == 0
 {
@@ -28,7 +27,7 @@ else
 	if ySpeed > 0
 	{
 		sprite_index = spr_player_down
-		direc = 3
+		direc = 3	
 	}
 	if ySpeed < 0
 	{
@@ -46,3 +45,22 @@ else
 		direc = 2
 	}
 }
+
+if place_meeting(x, y + ySpeed, obj_blocade)
+{
+	ySpeed = 0 
+	show_debug_message("Y collision")
+
+}
+if place_meeting(x + xSpeed, y, obj_blocade)
+{
+	xSpeed = 0 
+	show_debug_message("X collision")
+}
+
+x += xSpeed
+y += ySpeed
+
+//move_and_collide(xSpeed * moveSpeed, ySpeed * moveSpeed, obj_blocade)
+
+depth = -bbox_bottom
