@@ -1,2 +1,2 @@
-xPos = 572
+xPos = 600
 yPos = 600
