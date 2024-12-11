@@ -42,6 +42,8 @@
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},},
     {"id":{"name":"obj_tree","path":"objects/obj_tree/obj_tree.yy",},},
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
+    {"id":{"name":"getTextBox","path":"scripts/getTextBox/getTextBox.yy",},},
+    {"id":{"name":"global_vars","path":"scripts/global_vars/global_vars.yy",},},
     {"id":{"name":"messageBox","path":"scripts/messageBox/messageBox.yy",},},
     {"id":{"name":"spr_blocade","path":"sprites/spr_blocade/spr_blocade.yy",},},
     {"id":{"name":"spr_player_down","path":"sprites/spr_player_down/spr_player_down.yy",},},

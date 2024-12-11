@@ -1,3 +1,5 @@
+global_vars()
+
 xSpeed = 0
 ySpeed = 0
 moveSpeed = 6
@@ -11,3 +13,5 @@ rightKeyPressed = 0
 interactKeyPressed = 0
 
 interact = 0
+
+textBox = noone
